@@ -42,6 +42,11 @@ class Lexer:
         self.tokens.append(parenthesis_token)
 
     def state_operator(self):
+        if self.input[self.idx:self.idx + 2] == "//":
+            self.idx += 2
+            self.tokens.append(Token(TokenType.OPERATOR, "//"))
+            return
+
         operator_token = Token(TokenType.OPERATOR, self.consume_char())
         self.tokens.append(operator_token)
 
