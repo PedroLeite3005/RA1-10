@@ -10,7 +10,7 @@ def _eval_with_mem(line: str, memoria: dict[str, float]) -> float:
     ctx.memoria.update(memoria)
     tokens = Lexer().parseExpressao(line)
     rpn = parse(tokens)
-    return ctx.executar_raiz(rpn)
+    return ctx.executarExpressao(rpn)
 
 
 class TestExecutarExpressao(unittest.TestCase):
@@ -41,9 +41,9 @@ class TestExecutarExpressao(unittest.TestCase):
         # MEM = 42
         ctx = ContextoExecucao()
         lexer = Lexer()
-        ctx.executar_raiz(parse(lexer.parseExpressao("( 42 MEM )")))
+        ctx.executarExpressao(parse(lexer.parseExpressao("( 42 MEM )")))
         self.assertEqual(ctx.memoria.get("MEM"), 42.0)
-        r = ctx.executar_raiz(parse(lexer.parseExpressao("( MEM )")))
+        r = ctx.executarExpressao(parse(lexer.parseExpressao("( MEM )")))
         self.assertEqual(r, 42.0)
 
     def test_res_history(self):
@@ -52,9 +52,9 @@ class TestExecutarExpressao(unittest.TestCase):
         # 1 RES = 15
         ctx = ContextoExecucao()
         lexer = Lexer()
-        ctx.executar_raiz(parse(lexer.parseExpressao("( 10 5 + )")))
-        ctx.executar_raiz(parse(lexer.parseExpressao("( 100 1 + )")))
-        r = ctx.executar_raiz(parse(lexer.parseExpressao("( 1 RES )")))
+        ctx.executarExpressao(parse(lexer.parseExpressao("( 10 5 + )")))
+        ctx.executarExpressao(parse(lexer.parseExpressao("( 100 1 + )")))
+        r = ctx.executarExpressao(parse(lexer.parseExpressao("( 1 RES )")))
         self.assertAlmostEqual(r, 15.0)
 
 

@@ -34,7 +34,7 @@ class ContextoExecucao:
         self.memoria: dict[str, float] = {}
         self.historico: list[float] = []
 
-    def executar_raiz(self, rpn: list[RpnAtom]) -> float:
+    def executarExpressao(self, rpn: list[RpnAtom]) -> float:
         resultado = self.executar_rpn(rpn)
         self.historico.append(resultado)
         return resultado
