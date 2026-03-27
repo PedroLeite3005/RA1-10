@@ -1,0 +1,450 @@
+[
+  [
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "25.0"
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "5.0"
+    },
+    {
+      "type": "OPERATOR",
+      "lexeme": "/"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    }
+  ],
+  [
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "0"
+    },
+    {
+      "type": "KEYWORD",
+      "lexeme": "RES"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    }
+  ],
+  [
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "0"
+    },
+    {
+      "type": "KEYWORD",
+      "lexeme": "RES"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "10.0"
+    },
+    {
+      "type": "OPERATOR",
+      "lexeme": "+"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    }
+  ],
+  [
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "8.0"
+    },
+    {
+      "type": "IDENT",
+      "lexeme": "TOTAL"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    }
+  ],
+  [
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "IDENT",
+      "lexeme": "TOTAL"
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "2.0"
+    },
+    {
+      "type": "OPERATOR",
+      "lexeme": "*"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "3.0"
+    },
+    {
+      "type": "OPERATOR",
+      "lexeme": "+"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    }
+  ],
+  [
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "1.0"
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "2.0"
+    },
+    {
+      "type": "OPERATOR",
+      "lexeme": "+"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "3.0"
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "4.0"
+    },
+    {
+      "type": "OPERATOR",
+      "lexeme": "+"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    },
+    {
+      "type": "OPERATOR",
+      "lexeme": "*"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    },
+    {
+      "type": "IDENT",
+      "lexeme": "PRODUTO"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    }
+  ],
+  [
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "IDENT",
+      "lexeme": "PRODUTO"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    }
+  ],
+  [
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "100"
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "7"
+    },
+    {
+      "type": "OPERATOR",
+      "lexeme": "//"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    }
+  ],
+  [
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "100"
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "7"
+    },
+    {
+      "type": "OPERATOR",
+      "lexeme": "%"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    }
+  ],
+  [
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "3.0"
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "4"
+    },
+    {
+      "type": "OPERATOR",
+      "lexeme": "^"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    }
+  ],
+  [
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "10.0"
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "5.0"
+    },
+    {
+      "type": "OPERATOR",
+      "lexeme": "-"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "2.0"
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "3.0"
+    },
+    {
+      "type": "OPERATOR",
+      "lexeme": "^"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    },
+    {
+      "type": "OPERATOR",
+      "lexeme": "+"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "4.0"
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "2.0"
+    },
+    {
+      "type": "OPERATOR",
+      "lexeme": "/"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    },
+    {
+      "type": "OPERATOR",
+      "lexeme": "*"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    }
+  ],
+  [
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "7.5"
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "2.5"
+    },
+    {
+      "type": "OPERATOR",
+      "lexeme": "+"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "3.0"
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "1.0"
+    },
+    {
+      "type": "OPERATOR",
+      "lexeme": "-"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": "("
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "4.0"
+    },
+    {
+      "type": "NUMBER",
+      "lexeme": "2.0"
+    },
+    {
+      "type": "OPERATOR",
+      "lexeme": "/"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    },
+    {
+      "type": "OPERATOR",
+      "lexeme": "*"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    },
+    {
+      "type": "OPERATOR",
+      "lexeme": "-"
+    },
+    {
+      "type": "GROUP",
+      "lexeme": ")"
+    }
+  ]
+]
