@@ -76,7 +76,7 @@ Programa em Python que lê expressões aritméticas em Notação Polonesa Revers
 ### Gerar o Assembly e os tokens
 
 ```bash
-python3 gerar.py teste1.txt
+python3 main.py teste1.txt
 ```
 
 Isso produz:
@@ -87,9 +87,9 @@ Isso produz:
 Funciona com qualquer um dos 3 arquivos de teste:
 
 ```bash
-python3 gerar.py teste1.txt
-python3 gerar.py teste2.txt
-python3 gerar.py teste3.txt
+python3 main.py teste1.txt
+python3 main.py teste2.txt
+python3 main.py teste3.txt
 ```
 
 ### Executar o Assembly no CPUlator
@@ -119,10 +119,10 @@ python3 -m unittest test_assembly -v     # Gerador de Assembly e leitura de arqu
 
 | Aluno              | Função                                             | Arquivos                                                                |
 | ------------------ | -------------------------------------------------- | ----------------------------------------------------------------------- |
-| Felipe (Aluno 1)   | `parseExpressao` + Analisador Léxico (AFD)         | `lexer.py`, `tokens.py`, `test_lexer.py`                                |
-| Giuseppe (Aluno 2) | `executarExpressao` + Memória + Histórico          | `executor.py`, `parser.py`, `test_executor.py`                          |
-| Isabelle (Aluno 3) | `gerarAssembly` + `lerArquivo` + Arquivos de teste | `assembly_generator.py`, `gerar.py`, `test_assembly.py`, `teste1-3.txt` |
-| Pedro (Aluno 4)    | `exibirResultados` + `main` + Integração           | `main.py`, `error.py`                                                   |
+| Pedro  (Aluno 1)   | `parseExpressao` + Analisador Léxico (AFD)         | `lexer.py`, `tokens.py`, `test_lexer.py`                                |
+| Felipe   (Aluno 2) | `executarExpressao` + Memória + Histórico          | `executor.py`, `parser.py`, `test_executor.py`                          |
+| Giuseppe (Aluno 3) | `gerarAssembly` + `lerArquivo` + Arquivos de teste | `assembly_generator.py`, `gerar.py`, `test_assembly.py`, `teste1-3.txt` |
+| Isabelle (Aluno 4) | `exibirResultados` + `main` + Integração           | `main.py`, `error.py`                                                   |
 
 ---
 
