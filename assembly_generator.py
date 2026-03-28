@@ -1,4 +1,4 @@
-# Aluno 3 - Pedro Bastos Leite (PedroLeite3005)
+# Aluno 3 - Giuseppe Bruno Ferreira Filippin - giuseppefilippin
 # lerArquivo e gerarAssembly - Assembly ARMv7 pro CPUlator DE1-SoC
 # Versão refeita para usar VFP/double IEEE-754 em vez de soft-float artesanal.
 
@@ -6,7 +6,25 @@ from __future__ import annotations
 
 import struct
 from parser import parse
+import sys
+from lexer import Lexer
 
+
+def salvar_assembly(file_path: str, linhas: list[str]) -> None:
+    """Gera `<entrada>.s` no mesmo estilo de gerar.py (tokens → gerarAssembly)."""
+    lexer = Lexer()
+    todos_tokens = []
+    for raw in linhas:
+        line = raw.strip()
+        if not line:
+            continue
+        todos_tokens.append(lexer.parseExpressao(line))
+    codigo: list[str] = []
+    gerarAssembly(todos_tokens, codigo)
+    nome_asm = file_path.rsplit(".", 1)[0] + ".s"
+    with open(nome_asm, "w", encoding="utf-8") as f:
+        f.write("\n".join(codigo))
+    print(f"Assembly gerado em: {nome_asm}", file=sys.stderr)
 
 def lerArquivo(nomeArquivo: str, linhas: list[str]) -> bool:
     try:
